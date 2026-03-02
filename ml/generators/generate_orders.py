@@ -102,14 +102,18 @@ def generate_orders(n_weeks=4):
 
             order_id += 1
 
+    return orders
+
+
+if __name__ == "__main__":
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    DATA_DIR = os.path.join(BASE_DIR, "data")
     orders_path = os.path.join(DATA_DIR, "orders.json")
+    
+    orders = generate_orders(n_weeks=6)
 
     with open(orders_path, "w") as f:
         json.dump(orders, f, indent=4)
 
     print(f"Generated {len(orders)} orders successfully.")
     print(f"Saved to: {orders_path}")
-
-
-if __name__ == "__main__":
-    generate_orders(n_weeks=6)
