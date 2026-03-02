@@ -1,6 +1,7 @@
 const MLService = require('../services/mlService');
 
-const mlService = new MLService(process.env.ML_SERVICE_URL);
+// const mlService = new MLService(process.env.ML_SERVICE_URL);
+const mlService = new MLService(process.env.ML_SERVICE_URL || 'http://localhost:8000');
 
 // Get recommendations for a user
 exports.getUserRecommendations = async (req, res) => {

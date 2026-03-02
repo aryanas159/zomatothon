@@ -14,10 +14,9 @@ class MLService {
   // Get recommendations for a user
   async getRecommendations(userId, options = {}) {
     try {
-      const response = await this.client.post('/recommendations', {
-        user_id: userId,
-        limit: options.limit || 10,
-        filters: options.filters || {}
+      // UPDATED: Changed .post() to .get() and fixed the path to match your @app.get("/recommend/user/{userId}")
+      const response = await this.client.get(`/recommend/user/${userId}`, {
+        params: { limit: options.limit || 10 }
       });
       return response.data;
     } catch (error) {
@@ -28,7 +27,7 @@ class MLService {
   // Get personalized recommendations based on user preferences
   async getPersonalizedRecommendations(userId, userProfile) {
     try {
-      const response = await this.client.post('/personalized-recommendations', {
+      const response = await this.client.get('/personalized-recommendations', {
         user_id: userId,
         profile: userProfile
       });
@@ -41,12 +40,13 @@ class MLService {
   // Get similar restaurants based on one restaurant
   async getSimilarRestaurants(restaurantId, limit = 5) {
     try {
-      const response = await this.client.post('/similar-restaurants', {
-        restaurant_id: restaurantId,
-        limit
+      // UPDATED: Changed .post() to .get() and fixed the path to match your @app.get("/recommend/similar/{restaurantId}")
+      const response = await this.client.get(`/recommend/similar/${restaurantId}`, {
+        params: { limit: limit }
       });
       return response.data;
     } catch (error) {
+      // This will now successfully hit http://localhost:8000/recommend/similar/10
       throw new Error(`Failed to get similar restaurants: ${error.message}`);
     }
   }
@@ -54,7 +54,7 @@ class MLService {
   // Get recommendations based on cuisine type
   async getRecommendationsByCuisine(cuisine, options = {}) {
     try {
-      const response = await this.client.post('/recommendations-by-cuisine', {
+      const response = await this.client.get('/recommendations-by-cuisine', {
         cuisine,
         limit: options.limit || 10,
         rating_min: options.ratingMin || 0,
@@ -84,7 +84,7 @@ class MLService {
   // Get recommendations for a group of users
   async getGroupRecommendations(userIds, options = {}) {
     try {
-      const response = await this.client.post('/group-recommendations', {
+      const response = await this.client.get('/group-recommendations', {
         user_ids: userIds,
         limit: options.limit || 5
       });
@@ -97,7 +97,8 @@ class MLService {
   // Get health check
   async healthCheck() {
     try {
-      const response = await this.client.get('/health');
+     
+      const response = await this.client.get('/'); 
       return response.data;
     } catch (error) {
       throw new Error(`ML Service is unavailable: ${error.message}`);
