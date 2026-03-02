@@ -25,3 +25,6 @@ python -m ml.scripts.train_model
 To start the recommendation microservice:
 ```bash
 python -m ml.app
+
+# Test the Performance
+python test_performance.py
