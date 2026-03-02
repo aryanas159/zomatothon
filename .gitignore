@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Large files should stay local)
+ml/data/*.json
+ml/data/*.csv
+!ml/data/.gitkeep
+
+# Model artifacts
+ml/models/*.pkl
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
