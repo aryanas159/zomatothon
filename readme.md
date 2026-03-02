@@ -20,3 +20,8 @@ python -m ml.scripts.build_training_dataset
 
 # Train the LightGBM Ranker model
 python -m ml.scripts.train_model
+
+## 🌐 API Deployment
+To start the recommendation microservice:
+```bash
+python -m ml.app
