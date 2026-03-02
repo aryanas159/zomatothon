@@ -62,6 +62,7 @@ def build_training_dataset(neg_samples=5):
                 group_id = group_counter
 
                 for candidate in candidate_pool:
+                    item_info = item_dict[candidate]
                     rows.append({
                         "group_id": group_id,
                         "user_id": user_id,
@@ -69,6 +70,7 @@ def build_training_dataset(neg_samples=5):
                         "cart_value": cart_value,
                         "candidate_item": candidate,
                         "candidate_price": item_dict[candidate]["price"],
+                        "is_drink": 1 if item_info["category"] == "beverage" else 0,
                         "user_segment": user_dict[user_id]["segment"],
                         "preferred_cuisine": user_dict[user_id]["preferred_cuisine"],
                         "label": 1 if candidate == positive else 0

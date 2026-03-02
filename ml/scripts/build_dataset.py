@@ -2,9 +2,9 @@
 
 import os
 import json
-from generators.generate_items import generate_items
-from generators.generate_users import generate_users
-from generators.generate_orders import generate_orders
+from ml.generators.generate_items import generate_items
+from ml.generators.generate_users import generate_users
+from ml.generators.generate_orders import generate_orders
 
 
 def build_dataset():
