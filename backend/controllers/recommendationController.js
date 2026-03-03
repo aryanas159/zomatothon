@@ -1,7 +1,90 @@
 const MLService = require('../services/mlService');
+const fs = require('fs');
+const path = require('path');
 
-// const mlService = new MLService(process.env.ML_SERVICE_URL);
-const mlService = new MLService(process.env.ML_SERVICE_URL || 'http://localhost:8000');
+const configuredMlUrl = process.env.ML_SERVICE_URL;
+const mlServiceBaseUrl = !configuredMlUrl || configuredMlUrl.includes('mlservice.example.com')
+  ? 'http://localhost:8000'
+  : configuredMlUrl;
+const mlService = new MLService(mlServiceBaseUrl);
+const ITEMS_PATH = path.resolve(__dirname, '../../ml/data/items.json');
+let itemsCache = null;
+
+function loadItems() {
+  if (itemsCache) {
+    return itemsCache;
+  }
+
+  const raw = fs.readFileSync(ITEMS_PATH, 'utf8');
+  const items = JSON.parse(raw);
+  itemsCache = items.map((item) => ({
+    item_id: item.item_id,
+    name: item.name
+  }));
+  return itemsCache;
+}
+
+// Get item catalog (id + name)
+exports.getItemsCatalog = async (req, res) => {
+  try {
+    const items = loadItems();
+    res.json({
+      success: true,
+      items,
+      count: items.length
+    });
+  } catch (error) {
+    console.error('Items catalog request failed:', error.message);
+    res.status(500).json({
+      error: 'Failed to load item catalog',
+      details: error.message
+    });
+  }
+};
+
+// Get recommendations for an active cart
+exports.getCartRecommendations = async (req, res) => {
+  try {
+    const { cart, top_n = 5 } = req.query;
+    if (!cart) {
+      return res.status(400).json({ error: 'cart is required' });
+    }
+
+    let cartItems = [];
+    if (Array.isArray(cart)) {
+      cartItems = cart;
+    } else if (typeof cart === 'string') {
+      cartItems = cart.split(',');
+    }
+
+    const parsedCart = cartItems
+      .map((item) => parseInt(item, 10))
+      .filter((item) => Number.isInteger(item) && item > 0);
+
+    if (parsedCart.length === 0) {
+      return res.status(400).json({ error: 'cart must contain valid item ids' });
+    }
+
+    const topN = Math.min(Math.max(parseInt(top_n, 10) || 5, 1), 20);
+    const recs = await mlService.getCartRecommendations(parsedCart, topN);
+    const recommendations = recs.recommendations || recs.restaurants || [];
+
+    res.json({
+      success: true,
+      cart: parsedCart,
+      recommendations,
+      count: recommendations.length,
+      topN,
+      timestamp: new Date()
+    });
+  } catch (error) {
+    console.error('Cart recommendation request failed:', error.message);
+    res.status(500).json({
+      error: 'Failed to fetch cart recommendations',
+      details: error.message
+    });
+  }
+};
 
 // Get recommendations for a user
 exports.getUserRecommendations = async (req, res) => {

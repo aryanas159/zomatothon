@@ -3,6 +3,12 @@ const recommendationController = require('../controllers/recommendationControlle
 
 const router = express.Router();
 
+// Get items catalog
+router.get('/items', recommendationController.getItemsCatalog);
+
+// Get recommendations for a cart
+router.get('/cart', recommendationController.getCartRecommendations);
+
 // Get recommendations for a user
 router.get('/user/:userId', recommendationController.getUserRecommendations);
 

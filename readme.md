@@ -1,30 +1,40 @@
 # Zomatothon: Machine Learning Recommendation Engine
 
-This repository contains the Recommendation & ML Engine for the Zomatothon project. It uses a two-stage approach (Retrieval + Ranking) to suggest the best menu items to users in real-time.
+This repository contains the recommendation and ML engine for Zomatothon.  
+It uses a two-stage approach (retrieval + ranking) to suggest items in real time.
 
-## 🚀 Quick Start
+## Quick Start
 
-### 1. Installation
-Ensure you are using Python 3.12. Install all dependencies:
+### 1. Install Python dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-# Generate raw data (items, users, orders)
-python -m ml.scripts.build_dataset
+### 2. Build artifacts (data + model)
+```bash
+python main.py
+```
 
-# Build retrieval layer (Co-occurrence matrix)
-python -m ml.scripts.build_cooccurence
-
-# Build training dataset with negative samples
-python -m ml.scripts.build_training_dataset
-
-# Train the LightGBM Ranker model
-python -m ml.scripts.train_model
-
-## 🌐 API Deployment
-To start the recommendation microservice:
+### 3. Run ML API only
 ```bash
 python -m ml.app
+```
 
-# Test the Performance
-python test_performance.py
+## Run Full Stack Locally (Windows)
+
+From the project root:
+
+```powershell
+.\start-all.cmd
+```
+
+This starts:
+- ML API on `http://localhost:8000`
+- Backend API on `http://localhost:3001`
+- Frontend on `http://localhost:3000`
+
+To stop all managed services:
+
+```powershell
+.\stop-all.cmd
+```

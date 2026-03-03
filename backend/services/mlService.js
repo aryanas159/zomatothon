@@ -24,12 +24,30 @@ class MLService {
     }
   }
 
+  // Get recommendations from a live cart
+  async getCartRecommendations(cartItemIds, topN = 5) {
+    try {
+      if (!Array.isArray(cartItemIds) || cartItemIds.length === 0) {
+        throw new Error('cartItemIds must be a non-empty array');
+      }
+
+      const cartQuery = cartItemIds
+        .map((itemId) => `cart=${encodeURIComponent(itemId)}`)
+        .join('&');
+      const response = await this.client.get(`/recommend?${cartQuery}&top_n=${topN}`);
+      return response.data;
+    } catch (error) {
+      throw new Error(`Failed to get cart recommendations: ${error.message}`);
+    }
+  }
+
   // Get personalized recommendations based on user preferences
   async getPersonalizedRecommendations(userId, userProfile) {
     try {
-      const response = await this.client.get('/personalized-recommendations', {
-        user_id: userId,
-        profile: userProfile
+      const response = await this.client.get(`/recommend/personalized/${userId}`, {
+        params: {
+          limit: userProfile?.limit || 10
+        }
       });
       return response.data;
     } catch (error) {
@@ -55,10 +73,12 @@ class MLService {
   async getRecommendationsByCuisine(cuisine, options = {}) {
     try {
       const response = await this.client.get('/recommendations-by-cuisine', {
-        cuisine,
-        limit: options.limit || 10,
-        rating_min: options.ratingMin || 0,
-        price_range: options.priceRange || null
+        params: {
+          cuisine,
+          limit: options.limit || 10,
+          rating_min: options.ratingMin || 0,
+          price_range: options.priceRange || null
+        }
       });
       return response.data;
     } catch (error) {
@@ -85,8 +105,10 @@ class MLService {
   async getGroupRecommendations(userIds, options = {}) {
     try {
       const response = await this.client.get('/group-recommendations', {
-        user_ids: userIds,
-        limit: options.limit || 5
+        params: {
+          user_ids: Array.isArray(userIds) ? userIds.join(',') : '',
+          limit: options.limit || 5
+        }
       });
       return response.data;
     } catch (error) {
@@ -97,8 +119,7 @@ class MLService {
   // Get health check
   async healthCheck() {
     try {
-     
-      const response = await this.client.get('/'); 
+      const response = await this.client.get('/health');
       return response.data;
     } catch (error) {
       throw new Error(`ML Service is unavailable: ${error.message}`);

@@ -11,7 +11,10 @@ app.use(cors());
 app.use(express.json());
 
 const PORT = process.env.PORT || 3001;
-const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://localhost:8000';
+const configuredMlUrl = process.env.ML_SERVICE_URL;
+const ML_SERVICE_URL = !configuredMlUrl || configuredMlUrl.includes('mlservice.example.com')
+  ? 'http://localhost:8000'
+  : configuredMlUrl;
 
 console.log(`🚀 Backend Server Starting`);
 console.log(`📍 ML Service URL: ${ML_SERVICE_URL}`);

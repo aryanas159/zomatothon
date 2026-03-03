@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Runtime/temp
+.run/
+*.log
+
 # Data files (Large files should stay local)
 ml/data/*.json
 ml/data/*.csv
@@ -16,6 +20,16 @@ ml/models/*.pkl
 env/
 venv/
 ENV/
+.env
+.env.*
+!.env.example
+backend/.env
+zomatothon-frontend/.env
+
+# Node
+backend/node_modules/
+zomatothon-frontend/node_modules/
+zomatothon-frontend/build/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
