@@ -10,7 +10,7 @@ app = FastAPI(title="Zomathon Recommendation API")
 engine = ZomathonEngine()
 
 @app.get("/recommend")
-def recommend(cart: List[int] = Query(...), top_n: int = 3):
+def recommend(cart: List[int] = Query(..., alias="cart[]"), top_n: int = 3):
     """
     Endpoint to get real-time recommendations.
     Example: /recommend?cart=1&cart=2&top_n=3

@@ -4,295 +4,295 @@
         "name": "Veg Biryani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 320,
-        "popularity": 0.92
+        "price": 239,
+        "popularity": 0.95
     },
     {
         "item_id": 1,
         "name": "Chicken Biryani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 290,
-        "popularity": 0.76
+        "price": 358,
+        "popularity": 0.66
     },
     {
         "item_id": 2,
         "name": "Mutton Biryani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 208,
-        "popularity": 0.26
+        "price": 377,
+        "popularity": 0.84
     },
     {
         "item_id": 3,
         "name": "Spicy Biryani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 378,
-        "popularity": 0.4
+        "price": 339,
+        "popularity": 0.52
     },
     {
         "item_id": 4,
         "name": "Special Biryani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 208,
-        "popularity": 0.72
+        "price": 202,
+        "popularity": 0.8
     },
     {
         "item_id": 5,
         "name": "Deluxe Biryani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 396,
-        "popularity": 0.59
+        "price": 352,
+        "popularity": 0.88
     },
     {
         "item_id": 6,
         "name": "Veg Pulao",
         "cuisine": "Indian",
         "category": "main",
-        "price": 373,
-        "popularity": 0.69
+        "price": 346,
+        "popularity": 0.24
     },
     {
         "item_id": 7,
         "name": "Chicken Pulao",
         "cuisine": "Indian",
         "category": "main",
-        "price": 291,
-        "popularity": 0.65
+        "price": 382,
+        "popularity": 0.7
     },
     {
         "item_id": 8,
         "name": "Mutton Pulao",
         "cuisine": "Indian",
         "category": "main",
-        "price": 204,
-        "popularity": 0.44
+        "price": 364,
+        "popularity": 0.3
     },
     {
         "item_id": 9,
         "name": "Spicy Pulao",
         "cuisine": "Indian",
         "category": "main",
-        "price": 281,
-        "popularity": 0.9
+        "price": 270,
+        "popularity": 0.93
     },
     {
         "item_id": 10,
         "name": "Special Pulao",
         "cuisine": "Indian",
         "category": "main",
-        "price": 231,
-        "popularity": 0.46
+        "price": 290,
+        "popularity": 0.33
     },
     {
         "item_id": 11,
         "name": "Deluxe Pulao",
         "cuisine": "Indian",
         "category": "main",
-        "price": 250,
-        "popularity": 0.86
+        "price": 211,
+        "popularity": 0.34
     },
     {
         "item_id": 12,
         "name": "Veg Dal Makhani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 344,
-        "popularity": 0.86
+        "price": 379,
+        "popularity": 0.22
     },
     {
         "item_id": 13,
         "name": "Chicken Dal Makhani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 270,
-        "popularity": 0.46
+        "price": 287,
+        "popularity": 0.58
     },
     {
         "item_id": 14,
         "name": "Mutton Dal Makhani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 380,
-        "popularity": 0.25
+        "price": 378,
+        "popularity": 0.87
     },
     {
         "item_id": 15,
         "name": "Spicy Dal Makhani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 370,
-        "popularity": 0.74
+        "price": 324,
+        "popularity": 0.93
     },
     {
         "item_id": 16,
         "name": "Special Dal Makhani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 272,
-        "popularity": 0.37
+        "price": 360,
+        "popularity": 0.52
     },
     {
         "item_id": 17,
         "name": "Deluxe Dal Makhani",
         "cuisine": "Indian",
         "category": "main",
-        "price": 273,
-        "popularity": 0.45
+        "price": 372,
+        "popularity": 0.33
     },
     {
         "item_id": 18,
         "name": "Veg Paneer Butter Masala",
         "cuisine": "Indian",
         "category": "main",
-        "price": 284,
-        "popularity": 0.84
+        "price": 289,
+        "popularity": 0.6
     },
     {
         "item_id": 19,
         "name": "Chicken Paneer Butter Masala",
         "cuisine": "Indian",
         "category": "main",
-        "price": 379,
-        "popularity": 0.51
+        "price": 309,
+        "popularity": 0.2
     },
     {
         "item_id": 20,
         "name": "Mutton Paneer Butter Masala",
         "cuisine": "Indian",
         "category": "main",
-        "price": 295,
-        "popularity": 0.86
+        "price": 376,
+        "popularity": 0.6
     },
     {
         "item_id": 21,
         "name": "Spicy Paneer Butter Masala",
         "cuisine": "Indian",
         "category": "main",
-        "price": 345,
-        "popularity": 0.23
+        "price": 327,
+        "popularity": 0.52
     },
     {
         "item_id": 22,
         "name": "Special Paneer Butter Masala",
         "cuisine": "Indian",
         "category": "main",
-        "price": 392,
-        "popularity": 0.64
+        "price": 282,
+        "popularity": 0.83
     },
     {
         "item_id": 23,
         "name": "Deluxe Paneer Butter Masala",
         "cuisine": "Indian",
         "category": "main",
-        "price": 346,
-        "popularity": 0.24
+        "price": 332,
+        "popularity": 0.57
     },
     {
         "item_id": 24,
         "name": "Veg Raita",
         "cuisine": "Indian",
         "category": "side",
-        "price": 90,
-        "popularity": 0.68
+        "price": 62,
+        "popularity": 0.23
     },
     {
         "item_id": 25,
         "name": "Chicken Raita",
         "cuisine": "Indian",
         "category": "side",
-        "price": 161,
-        "popularity": 0.61
+        "price": 180,
+        "popularity": 0.48
     },
     {
         "item_id": 26,
         "name": "Mutton Raita",
         "cuisine": "Indian",
         "category": "side",
-        "price": 184,
-        "popularity": 0.68
+        "price": 155,
+        "popularity": 0.28
     },
     {
         "item_id": 27,
         "name": "Spicy Raita",
         "cuisine": "Indian",
         "category": "side",
-        "price": 195,
-        "popularity": 0.88
+        "price": 59,
+        "popularity": 0.3
     },
     {
         "item_id": 28,
         "name": "Special Raita",
         "cuisine": "Indian",
         "category": "side",
-        "price": 190,
-        "popularity": 0.26
+        "price": 179,
+        "popularity": 0.42
     },
     {
         "item_id": 29,
         "name": "Deluxe Raita",
         "cuisine": "Indian",
         "category": "side",
-        "price": 137,
-        "popularity": 0.47
+        "price": 178,
+        "popularity": 0.84
     },
     {
         "item_id": 30,
         "name": "Veg Salan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 159,
-        "popularity": 0.3
+        "price": 144,
+        "popularity": 0.8
     },
     {
         "item_id": 31,
         "name": "Chicken Salan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 67,
-        "popularity": 0.41
+        "price": 80,
+        "popularity": 0.53
     },
     {
         "item_id": 32,
         "name": "Mutton Salan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 110,
-        "popularity": 0.43
+        "price": 74,
+        "popularity": 0.91
     },
     {
         "item_id": 33,
         "name": "Spicy Salan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 154,
-        "popularity": 0.26
+        "price": 65,
+        "popularity": 0.87
     },
     {
         "item_id": 34,
         "name": "Special Salan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 130,
-        "popularity": 0.46
+        "price": 110,
+        "popularity": 0.48
     },
     {
         "item_id": 35,
         "name": "Deluxe Salan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 62,
-        "popularity": 0.29
+        "price": 102,
+        "popularity": 0.89
     },
     {
         "item_id": 36,
         "name": "Veg Butter Naan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 53,
+        "price": 142,
         "popularity": 0.61
     },
     {
@@ -300,136 +300,136 @@
         "name": "Chicken Butter Naan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 109,
-        "popularity": 0.54
+        "price": 92,
+        "popularity": 0.79
     },
     {
         "item_id": 38,
         "name": "Mutton Butter Naan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 127,
-        "popularity": 0.66
+        "price": 55,
+        "popularity": 0.75
     },
     {
         "item_id": 39,
         "name": "Spicy Butter Naan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 51,
-        "popularity": 0.36
+        "price": 118,
+        "popularity": 0.4
     },
     {
         "item_id": 40,
         "name": "Special Butter Naan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 80,
-        "popularity": 0.3
+        "price": 118,
+        "popularity": 0.61
     },
     {
         "item_id": 41,
         "name": "Deluxe Butter Naan",
         "cuisine": "Indian",
         "category": "side",
-        "price": 107,
-        "popularity": 0.21
+        "price": 84,
+        "popularity": 0.6
     },
     {
         "item_id": 42,
         "name": "Veg Tandoori Roti",
         "cuisine": "Indian",
         "category": "side",
-        "price": 94,
-        "popularity": 0.22
+        "price": 190,
+        "popularity": 0.49
     },
     {
         "item_id": 43,
         "name": "Chicken Tandoori Roti",
         "cuisine": "Indian",
         "category": "side",
-        "price": 152,
-        "popularity": 0.57
+        "price": 66,
+        "popularity": 0.82
     },
     {
         "item_id": 44,
         "name": "Mutton Tandoori Roti",
         "cuisine": "Indian",
         "category": "side",
-        "price": 104,
-        "popularity": 0.89
+        "price": 101,
+        "popularity": 0.36
     },
     {
         "item_id": 45,
         "name": "Spicy Tandoori Roti",
         "cuisine": "Indian",
         "category": "side",
-        "price": 151,
-        "popularity": 0.9
+        "price": 95,
+        "popularity": 0.84
     },
     {
         "item_id": 46,
         "name": "Special Tandoori Roti",
         "cuisine": "Indian",
         "category": "side",
-        "price": 64,
-        "popularity": 0.51
+        "price": 95,
+        "popularity": 0.47
     },
     {
         "item_id": 47,
         "name": "Deluxe Tandoori Roti",
         "cuisine": "Indian",
         "category": "side",
-        "price": 74,
-        "popularity": 0.92
+        "price": 115,
+        "popularity": 0.8
     },
     {
         "item_id": 48,
         "name": "Veg Gulab Jamun",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 103,
-        "popularity": 0.68
+        "price": 129,
+        "popularity": 0.93
     },
     {
         "item_id": 49,
         "name": "Chicken Gulab Jamun",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 143,
-        "popularity": 0.86
+        "price": 88,
+        "popularity": 0.32
     },
     {
         "item_id": 50,
         "name": "Mutton Gulab Jamun",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 123,
-        "popularity": 0.27
+        "price": 96,
+        "popularity": 0.45
     },
     {
         "item_id": 51,
         "name": "Spicy Gulab Jamun",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 91,
-        "popularity": 0.58
+        "price": 150,
+        "popularity": 0.64
     },
     {
         "item_id": 52,
         "name": "Special Gulab Jamun",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 84,
-        "popularity": 0.53
+        "price": 150,
+        "popularity": 0.68
     },
     {
         "item_id": 53,
         "name": "Deluxe Gulab Jamun",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 93,
-        "popularity": 0.46
+        "price": 145,
+        "popularity": 0.78
     },
     {
         "item_id": 54,
@@ -437,270 +437,270 @@
         "cuisine": "Indian",
         "category": "dessert",
         "price": 100,
-        "popularity": 0.33
+        "popularity": 0.35
     },
     {
         "item_id": 55,
         "name": "Chicken Rasgulla",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 103,
-        "popularity": 0.31
+        "price": 118,
+        "popularity": 0.25
     },
     {
         "item_id": 56,
         "name": "Mutton Rasgulla",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 133,
-        "popularity": 0.86
+        "price": 92,
+        "popularity": 0.46
     },
     {
         "item_id": 57,
         "name": "Spicy Rasgulla",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 131,
-        "popularity": 0.34
+        "price": 81,
+        "popularity": 0.71
     },
     {
         "item_id": 58,
         "name": "Special Rasgulla",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 138,
-        "popularity": 0.2
+        "price": 145,
+        "popularity": 0.56
     },
     {
         "item_id": 59,
         "name": "Deluxe Rasgulla",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 142,
-        "popularity": 0.5
+        "price": 150,
+        "popularity": 0.32
     },
     {
         "item_id": 60,
         "name": "Veg Kheer",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 87,
-        "popularity": 0.67
+        "price": 144,
+        "popularity": 0.62
     },
     {
         "item_id": 61,
         "name": "Chicken Kheer",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 129,
-        "popularity": 0.54
+        "price": 118,
+        "popularity": 0.3
     },
     {
         "item_id": 62,
         "name": "Mutton Kheer",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 126,
-        "popularity": 0.8
+        "price": 113,
+        "popularity": 0.49
     },
     {
         "item_id": 63,
         "name": "Spicy Kheer",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 148,
-        "popularity": 0.65
+        "price": 150,
+        "popularity": 0.77
     },
     {
         "item_id": 64,
         "name": "Special Kheer",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 73,
-        "popularity": 0.36
+        "price": 90,
+        "popularity": 0.6
     },
     {
         "item_id": 65,
         "name": "Deluxe Kheer",
         "cuisine": "Indian",
         "category": "dessert",
-        "price": 89,
-        "popularity": 0.38
+        "price": 113,
+        "popularity": 0.7
     },
     {
         "item_id": 66,
         "name": "Veg Masala Chaas",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 87,
-        "popularity": 0.78
+        "price": 60,
+        "popularity": 0.71
     },
     {
         "item_id": 67,
         "name": "Chicken Masala Chaas",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 56,
-        "popularity": 0.59
+        "price": 99,
+        "popularity": 0.78
     },
     {
         "item_id": 68,
         "name": "Mutton Masala Chaas",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 82,
-        "popularity": 0.54
+        "price": 113,
+        "popularity": 0.52
     },
     {
         "item_id": 69,
         "name": "Spicy Masala Chaas",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 46,
-        "popularity": 0.45
+        "price": 92,
+        "popularity": 0.75
     },
     {
         "item_id": 70,
         "name": "Special Masala Chaas",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 118,
-        "popularity": 0.49
+        "price": 62,
+        "popularity": 0.77
     },
     {
         "item_id": 71,
         "name": "Deluxe Masala Chaas",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 67,
-        "popularity": 0.69
+        "price": 102,
+        "popularity": 0.24
     },
     {
         "item_id": 72,
         "name": "Veg Lassi",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 97,
-        "popularity": 0.43
+        "price": 74,
+        "popularity": 0.51
     },
     {
         "item_id": 73,
         "name": "Chicken Lassi",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 54,
-        "popularity": 0.51
+        "price": 64,
+        "popularity": 0.53
     },
     {
         "item_id": 74,
         "name": "Mutton Lassi",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 56,
-        "popularity": 0.22
+        "price": 64,
+        "popularity": 0.28
     },
     {
         "item_id": 75,
         "name": "Spicy Lassi",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 94,
-        "popularity": 0.61
+        "price": 62,
+        "popularity": 0.87
     },
     {
         "item_id": 76,
         "name": "Special Lassi",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 50,
-        "popularity": 0.9
+        "price": 77,
+        "popularity": 0.72
     },
     {
         "item_id": 77,
         "name": "Deluxe Lassi",
         "cuisine": "Indian",
         "category": "beverage",
-        "price": 89,
-        "popularity": 0.41
+        "price": 49,
+        "popularity": 0.48
     },
     {
         "item_id": 78,
         "name": "Veg Hakka Noodles",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 357,
-        "popularity": 0.24
+        "price": 223,
+        "popularity": 0.34
     },
     {
         "item_id": 79,
         "name": "Chicken Hakka Noodles",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 330,
-        "popularity": 0.36
+        "price": 233,
+        "popularity": 0.25
     },
     {
         "item_id": 80,
         "name": "Mutton Hakka Noodles",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 397,
-        "popularity": 0.61
+        "price": 374,
+        "popularity": 0.22
     },
     {
         "item_id": 81,
         "name": "Spicy Hakka Noodles",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 332,
-        "popularity": 0.21
+        "price": 254,
+        "popularity": 0.3
     },
     {
         "item_id": 82,
         "name": "Special Hakka Noodles",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 261,
-        "popularity": 0.84
+        "price": 228,
+        "popularity": 0.49
     },
     {
         "item_id": 83,
         "name": "Deluxe Hakka Noodles",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 308,
-        "popularity": 0.59
+        "price": 309,
+        "popularity": 0.47
     },
     {
         "item_id": 84,
         "name": "Veg Fried Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 254,
-        "popularity": 0.26
+        "price": 244,
+        "popularity": 0.61
     },
     {
         "item_id": 85,
         "name": "Chicken Fried Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 304,
-        "popularity": 0.49
+        "price": 305,
+        "popularity": 0.56
     },
     {
         "item_id": 86,
         "name": "Mutton Fried Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 341,
-        "popularity": 0.43
+        "price": 254,
+        "popularity": 0.3
     },
     {
         "item_id": 87,
         "name": "Spicy Fried Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 242,
+        "price": 226,
         "popularity": 0.33
     },
     {
@@ -708,375 +708,375 @@
         "name": "Special Fried Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 233,
-        "popularity": 0.39
+        "price": 392,
+        "popularity": 0.42
     },
     {
         "item_id": 89,
         "name": "Deluxe Fried Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 304,
-        "popularity": 0.84
+        "price": 271,
+        "popularity": 0.54
     },
     {
         "item_id": 90,
         "name": "Veg Schezwan Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 247,
-        "popularity": 0.78
+        "price": 367,
+        "popularity": 0.54
     },
     {
         "item_id": 91,
         "name": "Chicken Schezwan Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 369,
-        "popularity": 0.33
+        "price": 348,
+        "popularity": 0.23
     },
     {
         "item_id": 92,
         "name": "Mutton Schezwan Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 348,
-        "popularity": 0.94
+        "price": 358,
+        "popularity": 0.47
     },
     {
         "item_id": 93,
         "name": "Spicy Schezwan Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 247,
-        "popularity": 0.77
+        "price": 248,
+        "popularity": 0.89
     },
     {
         "item_id": 94,
         "name": "Special Schezwan Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 216,
-        "popularity": 0.73
+        "price": 381,
+        "popularity": 0.68
     },
     {
         "item_id": 95,
         "name": "Deluxe Schezwan Rice",
         "cuisine": "Chinese",
         "category": "main",
-        "price": 210,
-        "popularity": 0.79
+        "price": 247,
+        "popularity": 0.76
     },
     {
         "item_id": 96,
         "name": "Veg Spring Rolls",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 180,
-        "popularity": 0.52
+        "price": 138,
+        "popularity": 0.87
     },
     {
         "item_id": 97,
         "name": "Chicken Spring Rolls",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 127,
-        "popularity": 0.45
+        "price": 51,
+        "popularity": 0.27
     },
     {
         "item_id": 98,
         "name": "Mutton Spring Rolls",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 161,
-        "popularity": 0.6
+        "price": 56,
+        "popularity": 0.27
     },
     {
         "item_id": 99,
         "name": "Spicy Spring Rolls",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 77,
-        "popularity": 0.69
+        "price": 111,
+        "popularity": 0.25
     },
     {
         "item_id": 100,
         "name": "Special Spring Rolls",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 102,
-        "popularity": 0.24
+        "price": 195,
+        "popularity": 0.95
     },
     {
         "item_id": 101,
         "name": "Deluxe Spring Rolls",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 189,
-        "popularity": 0.9
+        "price": 175,
+        "popularity": 0.41
     },
     {
         "item_id": 102,
         "name": "Veg Manchurian",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 87,
-        "popularity": 0.42
+        "price": 79,
+        "popularity": 0.45
     },
     {
         "item_id": 103,
         "name": "Chicken Manchurian",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 94,
-        "popularity": 0.86
+        "price": 90,
+        "popularity": 0.9
     },
     {
         "item_id": 104,
         "name": "Mutton Manchurian",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 50,
-        "popularity": 0.63
+        "price": 96,
+        "popularity": 0.31
     },
     {
         "item_id": 105,
         "name": "Spicy Manchurian",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 79,
-        "popularity": 0.46
+        "price": 113,
+        "popularity": 0.28
     },
     {
         "item_id": 106,
         "name": "Special Manchurian",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 199,
-        "popularity": 0.65
+        "price": 76,
+        "popularity": 0.95
     },
     {
         "item_id": 107,
         "name": "Deluxe Manchurian",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 124,
-        "popularity": 0.41
+        "price": 184,
+        "popularity": 0.5
     },
     {
         "item_id": 108,
         "name": "Veg Chilli Paneer",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 100,
-        "popularity": 0.33
+        "price": 57,
+        "popularity": 0.44
     },
     {
         "item_id": 109,
         "name": "Chicken Chilli Paneer",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 92,
-        "popularity": 0.72
+        "price": 135,
+        "popularity": 0.58
     },
     {
         "item_id": 110,
         "name": "Mutton Chilli Paneer",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 80,
-        "popularity": 0.8
+        "price": 98,
+        "popularity": 0.44
     },
     {
         "item_id": 111,
         "name": "Spicy Chilli Paneer",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 142,
-        "popularity": 0.68
+        "price": 62,
+        "popularity": 0.51
     },
     {
         "item_id": 112,
         "name": "Special Chilli Paneer",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 99,
-        "popularity": 0.32
+        "price": 90,
+        "popularity": 0.95
     },
     {
         "item_id": 113,
         "name": "Deluxe Chilli Paneer",
         "cuisine": "Chinese",
         "category": "side",
-        "price": 118,
-        "popularity": 0.57
+        "price": 178,
+        "popularity": 0.71
     },
     {
         "item_id": 114,
         "name": "Veg Honey Noodles",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 130,
-        "popularity": 0.54
+        "price": 105,
+        "popularity": 0.51
     },
     {
         "item_id": 115,
         "name": "Chicken Honey Noodles",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 94,
-        "popularity": 0.25
+        "price": 120,
+        "popularity": 0.73
     },
     {
         "item_id": 116,
         "name": "Mutton Honey Noodles",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 94,
-        "popularity": 0.74
+        "price": 111,
+        "popularity": 0.73
     },
     {
         "item_id": 117,
         "name": "Spicy Honey Noodles",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 103,
-        "popularity": 0.78
+        "price": 93,
+        "popularity": 0.85
     },
     {
         "item_id": 118,
         "name": "Special Honey Noodles",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 147,
-        "popularity": 0.3
+        "price": 145,
+        "popularity": 0.23
     },
     {
         "item_id": 119,
         "name": "Deluxe Honey Noodles",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 148,
-        "popularity": 0.74
+        "price": 95,
+        "popularity": 0.87
     },
     {
         "item_id": 120,
         "name": "Veg Fortune Cookie",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 111,
-        "popularity": 0.54
+        "price": 89,
+        "popularity": 0.65
     },
     {
         "item_id": 121,
         "name": "Chicken Fortune Cookie",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 94,
-        "popularity": 0.38
+        "price": 86,
+        "popularity": 0.31
     },
     {
         "item_id": 122,
         "name": "Mutton Fortune Cookie",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 136,
-        "popularity": 0.85
+        "price": 101,
+        "popularity": 0.63
     },
     {
         "item_id": 123,
         "name": "Spicy Fortune Cookie",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 71,
-        "popularity": 0.38
+        "price": 113,
+        "popularity": 0.46
     },
     {
         "item_id": 124,
         "name": "Special Fortune Cookie",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 115,
-        "popularity": 0.84
+        "price": 82,
+        "popularity": 0.75
     },
     {
         "item_id": 125,
         "name": "Deluxe Fortune Cookie",
         "cuisine": "Chinese",
         "category": "dessert",
-        "price": 116,
-        "popularity": 0.3
+        "price": 117,
+        "popularity": 0.84
     },
     {
         "item_id": 126,
         "name": "Veg Green Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 60,
-        "popularity": 0.65
+        "price": 80,
+        "popularity": 0.74
     },
     {
         "item_id": 127,
         "name": "Chicken Green Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 92,
-        "popularity": 0.67
+        "price": 47,
+        "popularity": 0.22
     },
     {
         "item_id": 128,
         "name": "Mutton Green Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 65,
-        "popularity": 0.67
+        "price": 60,
+        "popularity": 0.56
     },
     {
         "item_id": 129,
         "name": "Spicy Green Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 54,
-        "popularity": 0.85
+        "price": 119,
+        "popularity": 0.82
     },
     {
         "item_id": 130,
         "name": "Special Green Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 56,
-        "popularity": 0.37
+        "price": 72,
+        "popularity": 0.67
     },
     {
         "item_id": 131,
         "name": "Deluxe Green Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 112,
-        "popularity": 0.3
+        "price": 90,
+        "popularity": 0.48
     },
     {
         "item_id": 132,
         "name": "Veg Lemon Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 116,
-        "popularity": 0.81
+        "price": 60,
+        "popularity": 0.36
     },
     {
         "item_id": 133,
         "name": "Chicken Lemon Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 72,
-        "popularity": 0.54
+        "price": 80,
+        "popularity": 0.92
     },
     {
         "item_id": 134,
         "name": "Mutton Lemon Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 62,
+        "price": 108,
         "popularity": 0.7
     },
     {
@@ -1084,183 +1084,183 @@
         "name": "Spicy Lemon Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 57,
-        "popularity": 0.84
+        "price": 78,
+        "popularity": 0.29
     },
     {
         "item_id": 136,
         "name": "Special Lemon Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 74,
-        "popularity": 0.81
+        "price": 104,
+        "popularity": 0.9
     },
     {
         "item_id": 137,
         "name": "Deluxe Lemon Tea",
         "cuisine": "Chinese",
         "category": "beverage",
-        "price": 102,
-        "popularity": 0.78
+        "price": 107,
+        "popularity": 0.46
     },
     {
         "item_id": 138,
         "name": "Veg Margherita Pizza",
         "cuisine": "Italian",
         "category": "main",
-        "price": 227,
-        "popularity": 0.6
+        "price": 359,
+        "popularity": 0.86
     },
     {
         "item_id": 139,
         "name": "Chicken Margherita Pizza",
         "cuisine": "Italian",
         "category": "main",
-        "price": 388,
-        "popularity": 0.32
+        "price": 203,
+        "popularity": 0.62
     },
     {
         "item_id": 140,
         "name": "Mutton Margherita Pizza",
         "cuisine": "Italian",
         "category": "main",
-        "price": 286,
-        "popularity": 0.48
+        "price": 206,
+        "popularity": 0.94
     },
     {
         "item_id": 141,
         "name": "Spicy Margherita Pizza",
         "cuisine": "Italian",
         "category": "main",
-        "price": 344,
-        "popularity": 0.58
+        "price": 379,
+        "popularity": 0.88
     },
     {
         "item_id": 142,
         "name": "Special Margherita Pizza",
         "cuisine": "Italian",
         "category": "main",
-        "price": 276,
-        "popularity": 0.23
+        "price": 248,
+        "popularity": 0.54
     },
     {
         "item_id": 143,
         "name": "Deluxe Margherita Pizza",
         "cuisine": "Italian",
         "category": "main",
-        "price": 314,
-        "popularity": 0.51
+        "price": 335,
+        "popularity": 0.91
     },
     {
         "item_id": 144,
         "name": "Veg Pasta Alfredo",
         "cuisine": "Italian",
         "category": "main",
-        "price": 336,
-        "popularity": 0.94
+        "price": 298,
+        "popularity": 0.44
     },
     {
         "item_id": 145,
         "name": "Chicken Pasta Alfredo",
         "cuisine": "Italian",
         "category": "main",
-        "price": 291,
-        "popularity": 0.56
+        "price": 256,
+        "popularity": 0.7
     },
     {
         "item_id": 146,
         "name": "Mutton Pasta Alfredo",
         "cuisine": "Italian",
         "category": "main",
-        "price": 221,
-        "popularity": 0.7
+        "price": 324,
+        "popularity": 0.43
     },
     {
         "item_id": 147,
         "name": "Spicy Pasta Alfredo",
         "cuisine": "Italian",
         "category": "main",
-        "price": 210,
-        "popularity": 0.9
+        "price": 233,
+        "popularity": 0.55
     },
     {
         "item_id": 148,
         "name": "Special Pasta Alfredo",
         "cuisine": "Italian",
         "category": "main",
-        "price": 230,
-        "popularity": 0.76
+        "price": 300,
+        "popularity": 0.58
     },
     {
         "item_id": 149,
         "name": "Deluxe Pasta Alfredo",
         "cuisine": "Italian",
         "category": "main",
-        "price": 203,
-        "popularity": 0.48
+        "price": 317,
+        "popularity": 0.51
     },
     {
         "item_id": 150,
         "name": "Veg Lasagna",
         "cuisine": "Italian",
         "category": "main",
-        "price": 337,
-        "popularity": 0.29
+        "price": 344,
+        "popularity": 0.63
     },
     {
         "item_id": 151,
         "name": "Chicken Lasagna",
         "cuisine": "Italian",
         "category": "main",
-        "price": 237,
-        "popularity": 0.63
+        "price": 215,
+        "popularity": 0.28
     },
     {
         "item_id": 152,
         "name": "Mutton Lasagna",
         "cuisine": "Italian",
         "category": "main",
-        "price": 328,
-        "popularity": 0.75
+        "price": 316,
+        "popularity": 0.39
     },
     {
         "item_id": 153,
         "name": "Spicy Lasagna",
         "cuisine": "Italian",
         "category": "main",
-        "price": 319,
-        "popularity": 0.77
+        "price": 372,
+        "popularity": 0.46
     },
     {
         "item_id": 154,
         "name": "Special Lasagna",
         "cuisine": "Italian",
         "category": "main",
-        "price": 280,
-        "popularity": 0.88
+        "price": 395,
+        "popularity": 0.45
     },
     {
         "item_id": 155,
         "name": "Deluxe Lasagna",
         "cuisine": "Italian",
         "category": "main",
-        "price": 288,
-        "popularity": 0.67
+        "price": 367,
+        "popularity": 0.64
     },
     {
         "item_id": 156,
         "name": "Veg Garlic Bread",
         "cuisine": "Italian",
         "category": "side",
-        "price": 94,
-        "popularity": 0.45
+        "price": 194,
+        "popularity": 0.57
     },
     {
         "item_id": 157,
         "name": "Chicken Garlic Bread",
         "cuisine": "Italian",
         "category": "side",
-        "price": 188,
+        "price": 61,
         "popularity": 0.36
     },
     {
@@ -1268,8 +1268,8 @@
         "name": "Mutton Garlic Bread",
         "cuisine": "Italian",
         "category": "side",
-        "price": 172,
-        "popularity": 0.33
+        "price": 52,
+        "popularity": 0.39
     },
     {
         "item_id": 159,
@@ -1277,262 +1277,262 @@
         "cuisine": "Italian",
         "category": "side",
         "price": 51,
-        "popularity": 0.3
+        "popularity": 0.68
     },
     {
         "item_id": 160,
         "name": "Special Garlic Bread",
         "cuisine": "Italian",
         "category": "side",
-        "price": 97,
-        "popularity": 0.73
+        "price": 200,
+        "popularity": 0.93
     },
     {
         "item_id": 161,
         "name": "Deluxe Garlic Bread",
         "cuisine": "Italian",
         "category": "side",
-        "price": 71,
-        "popularity": 0.55
+        "price": 88,
+        "popularity": 0.26
     },
     {
         "item_id": 162,
         "name": "Veg Bruschetta",
         "cuisine": "Italian",
         "category": "side",
-        "price": 52,
-        "popularity": 0.95
+        "price": 82,
+        "popularity": 0.86
     },
     {
         "item_id": 163,
         "name": "Chicken Bruschetta",
         "cuisine": "Italian",
         "category": "side",
-        "price": 160,
-        "popularity": 0.61
+        "price": 50,
+        "popularity": 0.41
     },
     {
         "item_id": 164,
         "name": "Mutton Bruschetta",
         "cuisine": "Italian",
         "category": "side",
-        "price": 132,
-        "popularity": 0.28
+        "price": 169,
+        "popularity": 0.41
     },
     {
         "item_id": 165,
         "name": "Spicy Bruschetta",
         "cuisine": "Italian",
         "category": "side",
-        "price": 98,
-        "popularity": 0.62
+        "price": 92,
+        "popularity": 0.92
     },
     {
         "item_id": 166,
         "name": "Special Bruschetta",
         "cuisine": "Italian",
         "category": "side",
-        "price": 146,
-        "popularity": 0.35
+        "price": 137,
+        "popularity": 0.37
     },
     {
         "item_id": 167,
         "name": "Deluxe Bruschetta",
         "cuisine": "Italian",
         "category": "side",
-        "price": 170,
-        "popularity": 0.84
+        "price": 68,
+        "popularity": 0.86
     },
     {
         "item_id": 168,
         "name": "Veg Tiramisu",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 93,
-        "popularity": 0.54
+        "price": 84,
+        "popularity": 0.36
     },
     {
         "item_id": 169,
         "name": "Chicken Tiramisu",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 107,
-        "popularity": 0.66
+        "price": 147,
+        "popularity": 0.33
     },
     {
         "item_id": 170,
         "name": "Mutton Tiramisu",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 87,
-        "popularity": 0.78
+        "price": 88,
+        "popularity": 0.43
     },
     {
         "item_id": 171,
         "name": "Spicy Tiramisu",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 139,
-        "popularity": 0.64
+        "price": 111,
+        "popularity": 0.68
     },
     {
         "item_id": 172,
         "name": "Special Tiramisu",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 112,
-        "popularity": 0.28
+        "price": 70,
+        "popularity": 0.78
     },
     {
         "item_id": 173,
         "name": "Deluxe Tiramisu",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 94,
-        "popularity": 0.49
+        "price": 102,
+        "popularity": 0.58
     },
     {
         "item_id": 174,
         "name": "Veg Panna Cotta",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 136,
-        "popularity": 0.75
+        "price": 120,
+        "popularity": 0.37
     },
     {
         "item_id": 175,
         "name": "Chicken Panna Cotta",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 117,
-        "popularity": 0.75
+        "price": 73,
+        "popularity": 0.69
     },
     {
         "item_id": 176,
         "name": "Mutton Panna Cotta",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 150,
-        "popularity": 0.36
+        "price": 136,
+        "popularity": 0.45
     },
     {
         "item_id": 177,
         "name": "Spicy Panna Cotta",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 119,
-        "popularity": 0.9
+        "price": 132,
+        "popularity": 0.69
     },
     {
         "item_id": 178,
         "name": "Special Panna Cotta",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 140,
-        "popularity": 0.91
+        "price": 70,
+        "popularity": 0.24
     },
     {
         "item_id": 179,
         "name": "Deluxe Panna Cotta",
         "cuisine": "Italian",
         "category": "dessert",
-        "price": 98,
-        "popularity": 0.54
+        "price": 136,
+        "popularity": 0.7
     },
     {
         "item_id": 180,
         "name": "Veg Cold Coffee",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 98,
-        "popularity": 0.87
+        "price": 61,
+        "popularity": 0.58
     },
     {
         "item_id": 181,
         "name": "Chicken Cold Coffee",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 117,
-        "popularity": 0.69
+        "price": 112,
+        "popularity": 0.39
     },
     {
         "item_id": 182,
         "name": "Mutton Cold Coffee",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 41,
-        "popularity": 0.43
+        "price": 111,
+        "popularity": 0.49
     },
     {
         "item_id": 183,
         "name": "Spicy Cold Coffee",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 83,
-        "popularity": 0.71
+        "price": 84,
+        "popularity": 0.54
     },
     {
         "item_id": 184,
         "name": "Special Cold Coffee",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 77,
-        "popularity": 0.39
+        "price": 53,
+        "popularity": 0.33
     },
     {
         "item_id": 185,
         "name": "Deluxe Cold Coffee",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 54,
-        "popularity": 0.68
+        "price": 106,
+        "popularity": 0.62
     },
     {
         "item_id": 186,
         "name": "Veg Iced Tea",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 82,
-        "popularity": 0.47
+        "price": 79,
+        "popularity": 0.6
     },
     {
         "item_id": 187,
         "name": "Chicken Iced Tea",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 105,
-        "popularity": 0.5
+        "price": 94,
+        "popularity": 0.51
     },
     {
         "item_id": 188,
         "name": "Mutton Iced Tea",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 64,
-        "popularity": 0.69
+        "price": 80,
+        "popularity": 0.62
     },
     {
         "item_id": 189,
         "name": "Spicy Iced Tea",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 44,
-        "popularity": 0.24
+        "price": 88,
+        "popularity": 0.31
     },
     {
         "item_id": 190,
         "name": "Special Iced Tea",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 103,
-        "popularity": 0.66
+        "price": 56,
+        "popularity": 0.58
     },
     {
         "item_id": 191,
         "name": "Deluxe Iced Tea",
         "cuisine": "Italian",
         "category": "beverage",
-        "price": 77,
-        "popularity": 0.86
+        "price": 107,
+        "popularity": 0.76
     }
 ]

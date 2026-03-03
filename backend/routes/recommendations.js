@@ -3,6 +3,7 @@ const recommendationController = require('../controllers/recommendationControlle
 
 const router = express.Router();
 
+router.post('/cart', recommendationController.getCartRecommendations);
 // Get recommendations for a user
 router.get('/user/:userId', recommendationController.getUserRecommendations);
 
